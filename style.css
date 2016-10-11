@@ -1,0 +1,72 @@
+body {
+	display: block;
+}
+
+body, .row_div, .cell_div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+form {
+  margin: 0;
+}
+
+form p {
+  display: inline-block;
+	width: 80px;
+  text-align: right;
+  font-family: Arial, sans-serif;
+	font-size: 0.9em;
+  padding: 3px;
+  margin: 0;
+}
+
+form input {
+  width: 85px;
+}
+
+form button {
+  margin-left: 90px;
+  margin-top: 10px;
+  background-color: #76EA76;
+  font-weight: bold;
+}
+
+.row_div {
+	display: block;
+	height: 11px;
+	margin: 0 auto;
+	}
+	
+.cell_div {
+	display: inline-block;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	border-color: #CCCCCC;
+	background-color: white;
+	height: 10px;
+	width: 10px;
+  cursor: pointer;
+}
+
+.right_cell {
+	border-right-width: 1px;
+}
+
+.bottom_cell {
+	border-bottom-width: 1px;
+}
+
+#grid_container {
+	display: block;
+  margin-top: 10px;
+}
+
+#controls {
+  display: block;
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
