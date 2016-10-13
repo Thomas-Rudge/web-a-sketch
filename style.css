@@ -36,7 +36,6 @@ form button {
 .row_div {
 	display: block;
 	height: 11px;
-	margin: 0 auto;
 	}
 	
 .cell_div {
@@ -60,7 +59,9 @@ form button {
 
 #grid_container {
 	display: block;
-  margin-top: 10px;
+  margin: 10px auto;
+  width: 560px;
+  height: 560px;
 }
 
 #controls {
